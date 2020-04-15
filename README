@@ -1,0 +1,12 @@
+--- CS 3200 Database Final Project ---
+
+ The front end is based on IntelliJ, with most including libraries. While for the backend we used a SQL database.
+
+To set up the application first you will have to form the database from importing the data dump. We have put all the required data and the procedures in the dump and you just need to import and run it once to get the backend working perfectly!
+
+Inside the frontend project, there is one text file and one package. The text file is called README. Please also make sure you have Java SQL connector properly installed and imported to make a successful connection. (Java connector link: https://dev.mysql.com/downloads/connector/j/) while connecting to the database please make sure you change the username and the password in the front end program (change only the second parameter) to ensure a successful connection. Please make sure you enter the data according to the way it is put in the database since the program is case sensitive and it won’t identify strings properly unless they match perfectly.
+
+The frontend package is called cruise, it includes all the connection and processing methods with the database. There are a few data modeling scripts and a simple class. It has all the connections and methods that work with the database (backend).  We have chosen to work with functions/procedures on both front and backend. We believe this is the best combination to work with this project. Java package also includes a lot of useful
+resources that we have used in this project.
+
+Thank you and enjoy the application!
